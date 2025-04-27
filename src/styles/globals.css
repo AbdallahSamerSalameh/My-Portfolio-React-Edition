@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: rgb(28, 27, 27); /* bg-gray-900 */
+  color: white; /* text-white */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; /* font-light */
+  margin-top: 0.5rem; /* my-2 */
+  margin-bottom: 0.5rem; /* my-2 */
+}
+
+h1 { font-size: 2.25rem; } /* text-4xl */
+h2 { font-size: 1.875rem; } /* text-3xl */
+h3 { font-size: 1.5rem; } /* text-2xl */
+h4 { font-size: 1.25rem; } /* text-xl */
+h5 { font-size: 1.125rem; } /* text-lg */
+h6 { font-size: 1rem; } /* text-base */
+
+p {
+  font-size: 1rem; /* text-base */
+  margin-top: 0.5rem; /* my-2 */
+  margin-bottom: 0.5rem; /* my-2 */
+}
+
+.small {
+  font-size: 0.875rem; /* text-sm */
+}
+
+/* Colors from your tailwind config */
+:root {
+  --gray-900: rgb(28, 27, 27);
+  --gray-800: rgb(54, 54, 54);
+  --gray-700: rgb(96, 95, 95);
+  --gray-600: rgb(137, 137, 137);
+  --green-500: rgb(116, 194, 92);
+  --green-600: rgb(53, 165, 19);
+  --green-700: rgb(9, 103, 9);
+  --green-900: rgb(6, 56, 6);
+}
+
+/* Utility classes for your custom colors */
+.bg-gray-900 { background-color: var(--gray-900); }
+.bg-gray-800 { background-color: var(--gray-800); }
+.bg-gray-700 { background-color: var(--gray-700); }
+.bg-gray-600 { background-color: var(--gray-600); }
+.bg-green-500 { background-color: var(--green-500); }
+.bg-green-600 { background-color: var(--green-600); }
+.bg-green-700 { background-color: var(--green-700); }
+.bg-green-900 { background-color: var(--green-900); }
+
+.text-gray-900 { color: var(--gray-900); }
+.text-gray-800 { color: var(--gray-800); }
+.text-gray-700 { color: var(--gray-700); }
+.text-gray-600 { color: var(--gray-600); }
+.text-green-500 { color: var(--green-500); }
+.text-green-600 { color: var(--green-600); }
+.text-green-700 { color: var(--green-700); }
+.text-green-900 { color: var(--green-900); }
